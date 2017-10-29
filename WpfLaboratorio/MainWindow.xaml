@@ -1,0 +1,34 @@
+﻿<Window x:Class="WpfLaboratorio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLaboratorio"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="900">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="380"/>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <DataGrid x:Name="MuestrasDataGrid" ItemsSource="{Binding MuestrasResgistradas}" Grid.Column="1" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="309" Width="492"/>
+
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="23,40,0,0" TextWrapping="Wrap" Text="Id" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtId" Text="{Binding muestraDto.Id}" Grid.Column="0" HorizontalAlignment="Left" Height="20" Margin="190,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" />
+        
+        <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Margin="23,70,0,0" TextWrapping="Wrap" Text="Persona Muestrada" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPersonaMuestrada" Text="{Binding muestraDto.Persona_Muestrada}" Grid.Column="0" HorizontalAlignment="Left" Height="20" Margin="190,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" />
+        
+        <TextBlock x:Name="textBlock2" HorizontalAlignment="Left" Margin="23,100,0,0" TextWrapping="Wrap" Text="Fec. Toma" VerticalAlignment="Top"/>
+        <DatePicker x:Name="dpFecToma" SelectedDate="{Binding muestraDto.Fecha_Toma}" Grid.Column="0" HorizontalAlignment="Left" Margin="190,100,0,0" VerticalAlignment="Top" Width="168"/>
+
+        <TextBlock x:Name="textBlock3" HorizontalAlignment="Left" Margin="23,130,0,0" TextWrapping="Wrap" Text="Persona Toma Muestra" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtPersonaTomaMuestra" Text="{Binding muestraDto.Persona_Toma_Muestra}" Grid.Column="0" HorizontalAlignment="Left" Height="20" Margin="190,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" />
+
+        <Button x:Name="btnRegistrar" Content="Registrar" Grid.Column="0" HorizontalAlignment="Left" Margin="29,200,0,0" Grid.Row="0" VerticalAlignment="Top" Width="168" Height="43" Click="btnRegistrar_Click" />
+        <Button x:Name="btnActualizar" Content="Actualizar" Grid.Column="0" HorizontalAlignment="Left" Margin="200,200,0,0" Grid.Row="0" VerticalAlignment="Top" Width="168" Height="43" Click="btnActualizar_Click"/>
+        <Button x:Name="btnEliminar" Content="Eliminar" Grid.Column="0" HorizontalAlignment="Left" Margin="110,250,0,0" Grid.Row="0" VerticalAlignment="Top" Width="168" Height="43" Click="btnEliminar_Click"/>
+
+    </Grid>
+</Window>

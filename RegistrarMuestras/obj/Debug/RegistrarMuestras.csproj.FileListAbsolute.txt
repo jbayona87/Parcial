@@ -1,0 +1,14 @@
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\RegistrarMuestras.dll.config
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\RegistrarMuestras.dll
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\RegistrarMuestras.pdb
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\DataModel.dll
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\EntityFramework.dll
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\Interfaces.dll
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\DataModel.pdb
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\Interfaces.pdb
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\EntityFramework.xml
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\obj\Debug\RegistrarMuestras.csprojResolveAssemblyReference.cache
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\obj\Debug\RegistrarMuestras.dll
+C:\Users\Visual_Dom\Desktop\Clases\29-10-2017\Parcial\Laboratorio\RegistrarMuestras\obj\Debug\RegistrarMuestras.pdb

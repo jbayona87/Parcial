@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositorio", "Repositorio", "{89D046B6-A33F-456A-B835-47426DD1F6EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{6B77BDB7-6562-4DF0-BB28-2E148BD48F00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentacion", "Presentacion", "{F1D51DAA-45C5-4ECE-9EE3-DD9C4E6B859E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfLaboratorio", "WpfLaboratorio\WpfLaboratorio.csproj", "{3C3B8D0C-721A-4D25-82EE-CD23C16E51E5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CapaDeInterfaces", "CapaDeInterfaces", "{12B30B1D-A1B5-4F88-B604-040BC519ED7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces", "Interfaces\Interfaces.csproj", "{2003C854-DA96-4DA5-8C51-2AFF8EA83C83}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogicaDeNegocio", "LogicaDeNegocio", "{F916F918-3EB4-4542-AD72-6BCF705B1B5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegistrarMuestras", "RegistrarMuestras\RegistrarMuestras.csproj", "{4D566685-145C-452F-B2D5-BB912A7D6574}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B77BDB7-6562-4DF0-BB28-2E148BD48F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B77BDB7-6562-4DF0-BB28-2E148BD48F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B77BDB7-6562-4DF0-BB28-2E148BD48F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B77BDB7-6562-4DF0-BB28-2E148BD48F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C3B8D0C-721A-4D25-82EE-CD23C16E51E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C3B8D0C-721A-4D25-82EE-CD23C16E51E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C3B8D0C-721A-4D25-82EE-CD23C16E51E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C3B8D0C-721A-4D25-82EE-CD23C16E51E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2003C854-DA96-4DA5-8C51-2AFF8EA83C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2003C854-DA96-4DA5-8C51-2AFF8EA83C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2003C854-DA96-4DA5-8C51-2AFF8EA83C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2003C854-DA96-4DA5-8C51-2AFF8EA83C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D566685-145C-452F-B2D5-BB912A7D6574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D566685-145C-452F-B2D5-BB912A7D6574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D566685-145C-452F-B2D5-BB912A7D6574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D566685-145C-452F-B2D5-BB912A7D6574}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B77BDB7-6562-4DF0-BB28-2E148BD48F00} = {89D046B6-A33F-456A-B835-47426DD1F6EE}
+		{3C3B8D0C-721A-4D25-82EE-CD23C16E51E5} = {F1D51DAA-45C5-4ECE-9EE3-DD9C4E6B859E}
+		{2003C854-DA96-4DA5-8C51-2AFF8EA83C83} = {12B30B1D-A1B5-4F88-B604-040BC519ED7C}
+		{4D566685-145C-452F-B2D5-BB912A7D6574} = {F916F918-3EB4-4542-AD72-6BCF705B1B5B}
+	EndGlobalSection
+EndGlobal
